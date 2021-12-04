@@ -1,0 +1,51 @@
+body 
+{
+    font-family: calibri;
+    background-color: rgb(223, 223, 223);
+    padding: 50px;
+}
+main 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right 
+{
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+}
+form 
+{
+    display: flex;
+    flex-direction: column;
+}
+.input_styles 
+{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 2px;
+    width: 80%;
+    margin: 10px;
+    resize: none;
+}
+.note 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_grey 
+{
+    color: grey;
+}
+button 
+{
+    background-color: #2174fd;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    color: ivory;
+    margin: 25px;
+}
