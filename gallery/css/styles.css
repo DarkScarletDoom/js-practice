@@ -27,27 +27,30 @@ body{
     background-color: blanchedalmond;
     height: 150px;
     width: 250px;
+    cursor: pointer;
+    box-sizing: border-box;
 }
 .img_1{
-    background-image: url(../img//rx7_fc.jpg);
+    background-image: url(../img/rx7_fc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img_2{
-    background-image: url(../img//rx7_fd.jpg);
+    background-image: url(../img/rx7_fd.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img_3{
-    background-image: url(../img//s13.jpg);
+    background-image: url(../img/s13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .img_4{
-    background-image: url(../img//supra.jpg);
+    background-image: url(../img/supra.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .highlight{
     opacity: 0.7;
+    border: 3px solid #000;
 }
